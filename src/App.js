@@ -12,7 +12,9 @@ import Chatbot from "./components/Chatbot";
 import Footer from "./components/Footer";
 import Error from "./components/Error";
 import About from "./components/About";
-import Contact from "./components/Contact"
+import Contact from "./components/Contact";
+import Faq from "./components/Faq";
+import Gethome from "./components/Gethome";
 // import Faq from "./components/Faq";
 import Clinic from "./components/Clinic";
 import Medicine from "./components/Medicine";
@@ -20,7 +22,7 @@ import Reminder from "./components/Reminder";
 import SignUp from "./components/Signup";
 import SignIn from "./components/Signin";
 import Lottie from "lottie-react";
-import lottie from "./components/images/scan.json";
+import lottie from "./components/images/loading.json";
 import lottie1 from "./components/images/load.png";
 // import GetLocation from "./components/GetLocation";
 // import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
@@ -83,6 +85,16 @@ function App() {
               exact
               path="medicine"
               element={<Medicine key="medicine" />}
+            ></Route>
+            <Route
+              exact
+              path="faq"
+              element={<Faq key="faq" />}
+            ></Route>
+            <Route
+              exact
+              path="gethome"
+              element={<Gethome key="gethome" />}
             ></Route>
             {/* <Route
               exact

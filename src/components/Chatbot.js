@@ -1,13 +1,13 @@
 import "./styles/chatbot.css";
 
-import sos from "./images/sos.png";
+import sos from "./images/donate.jpg";
 
 export default function Chatbot() {
   return (
     <>
       <div className="coffee" title="Buy me a coffee">
         <a
-          href="tel:8016146916"
+          href="https://bmc.link/secondinnings"
           target="blank"
           rel="noreferrer"
         >

@@ -62,7 +62,7 @@ export default function Footer() {
           <div className="container text-center text-md-start mt-4">
             <div className="row mt-4">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 mt-4">
-                <h6 className=" fw-bold">WOOF - Way to Get A PAWsome Life</h6>
+                <h6 className=" fw-bold">Second Innings - A Perfect Home, Away From Home</h6>
                 <hr className="mb-4 mt-0 d-inline-block mx-auto hr1" />
                 <p className="text-dark">
                   <p className="just d-flex mx-auto">
@@ -183,11 +183,11 @@ export default function Footer() {
                 </p>
                 <p>
                   <i className="fas fa-envelope mr-3"></i>{" "}
-                  woof.teamtubelight@gmail.com
+                  secondinnings.mgneer@gmail.com
                 </p>
                 <p>
                   <i className="fas fa-phone mr-3"></i>{" "}
-                  <a href="tel: 6290374022">1800 111 363</a>
+                  <a href="tel: 6290374022" className="text-dark">1800 111 363</a>
                 </p>
                 <div className="div">
                   <p>
@@ -220,7 +220,7 @@ export default function Footer() {
                     <button
                       type="button"
                       className="btn btn-primary btn-sm align-center"
-                      style={{backgroundColor:"#F4D65E"}}
+                      style={{backgroundColor:"#17A5BF"}}
                     >
                       Send
                     </button>
@@ -234,7 +234,7 @@ export default function Footer() {
         <div className="text-center p-3 bg-muted text-muted">
           © 2023 Copyright: &nbsp;
           <a className="text-muted" href="/">
-            Team Tubelight
+            Team MGNEER
           </a>
         </div>
       </footer>

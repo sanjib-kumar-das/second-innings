@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "./styles/testimonial.css";
 
-import pic from "./images/logo.jfif";
+import pic from "./images/avatar.png";
 
 // import required modules
 import { Pagination } from "swiper";
@@ -14,12 +14,30 @@ import { Pagination } from "swiper";
 export default function Testimonial() {
   return (
     <>
-      <div className="container">
+      <div className="container test">
         <h2 className="heading my-4">
           <div className="codebird head-txt">
-          <h1 className="text-brown text-warning head" >
-              T<span className="text-warn" style={{color:"#ff8a8a"}}>e</span>st<span className="text-warn" style={{color:"#ff8a8a"}}>i</span>mon<span className="text-warn" style={{color:"#ff8a8a"}}>i</span>al<span className="text-warn" style={{color:"#ff8a8a"}}>s</span>
-            </h1>
+          <h1 className="text-brown main-head service-head">
+                <span className="text-warnin" style={{ color: "#15A6BA", fontWeight:"500" }}>
+                  T
+                  <span className="text-warn" style={{ color: "#EEE" }}>
+                    ES
+                  </span>                 
+                  T
+                
+                <span className="text-warnin" style={{ color: "#15A6BA" }}>
+                  
+                  <span className="text-warn" style={{ color: "#EEE" }}>
+                    I
+                  </span>                 
+                  MO
+                </span>
+                <span className="text-warn" style={{ color: "#EEE" }}>
+                    NI
+                  </span>
+                  AL
+                  </span>
+              </h1>
           </div>
         </h2>
         <Swiper

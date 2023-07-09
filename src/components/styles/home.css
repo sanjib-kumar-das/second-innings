@@ -41,12 +41,14 @@
 
 .main-head{
   font-size: 80px;
-  margin-top: 7rem;
+  margin-top: 8rem;
 }
 
 .homeCar{
-  margin-top: 12%;
+  margin-top: 5.5%;
 }
+
+
 
 /* Set the width of the container */
 .container {
@@ -56,9 +58,10 @@
 
 /* Set the height of the image */
 .image-container {
-  height: 400px;
-  position: relative;
+  height: 500px;
+  position:static;
   overflow: hidden;
+  margin-bottom: 3rem;
 }
 
 /* Set the background image */
