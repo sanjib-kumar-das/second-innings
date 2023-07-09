@@ -12,6 +12,7 @@ import Chatbot from "./components/Chatbot";
 import Footer from "./components/Footer";
 import Error from "./components/Error";
 import About from "./components/About";
+import Contact from "./components/Contact"
 // import Faq from "./components/Faq";
 import Clinic from "./components/Clinic";
 import Medicine from "./components/Medicine";
@@ -104,6 +105,11 @@ function App() {
               element={<SignUp key="signup" />}
             ></Route>
             <Route path="*" element={<Error />}></Route>
+            <Route
+              exact
+              path="contact"
+              element={<Contact key="contact" />}
+            ></Route>
           </Routes>
           <Chatbot />
           <Footer />
