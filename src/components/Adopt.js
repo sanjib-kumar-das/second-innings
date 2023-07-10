@@ -7,7 +7,7 @@ function Adopt() {
    <>
    <div className="container">
     
-   <canvas id="myChart" />
+   
    </div>
    <form className='container mt-5'>
     

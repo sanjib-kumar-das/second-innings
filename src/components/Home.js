@@ -69,11 +69,7 @@ export default function Home() {
             </div>
             <div className="sub-text my-5 fs-5 text-white">
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Mollitia dolorum voluptate, laudantium accusantium deserunt eos
-                explicabo, ipsa exercitationem asperiores voluptatum illum quasi
-                id, sequi impedit nobis. Doloremque corporis veritatis neque?
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Our website can provide comprehensive information about various old age homes, including their location, facilities, services, and the level of care provided. This helps senior citizens and their families make informed decisions about choosing the right home for their specific need. Moreover, our website also caters the condition of adopting a parent. Also, it provides a source of employment as a caregiver or volunteer those who want to look after the aged people.
               </span>
             </div>
             {/* <Link to="https://discord.gg/m6AMnhBXwn" className="">

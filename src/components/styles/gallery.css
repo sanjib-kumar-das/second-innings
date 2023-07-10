@@ -1,16 +1,3 @@
-
-@font-face {
-	font-family: raleway-c;
-	src: url("../raleway-regular.woff2");
-}
-@font-face {
-	font-family: outfit-c;
-	src: url("../outfit-regular.woff2");
-}
-h1, h2, h3, h4, h5, h6 {
-	font-family: outfit-c;
-}
-/* will-change */
 .content, .hero, .main-header, .gallery > * {
 	will-change: transform;
 }
