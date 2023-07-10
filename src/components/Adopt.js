@@ -34,54 +34,54 @@ function Adopt() {
 
 <div className="row mb-5 text-light fs-4">Do you think your residence could benefit from staying connected through our "Adopt Parent" program? If so, then register your care home today. <br /> Fill out the following form, and a member of your family will be in touch should be in touch for the complete process.</div>
 
-  <div class="row mb-4">
-    <div class="col">
-      <div class="form-inline">
-        <input type="text" id="form6Example1" class="form-control" placeholder='First Name' />
-        <label class="form-label" for="form6Example1"></label>
+  <div  className="row mb-4">
+    <div  className="col">
+      <div  className="form-inline">
+        <input type="text" id="form6Example1"  className="form-control" placeholder='First Name' />
+        <label  className="form-label" for="form6Example1"></label>
       </div>
     </div>
-    <div class="col">
-      <div class="form-outline">
-        <input type="text" id="form6Example2" class="form-control" placeholder='Last Name' />
-        <label class="form-label" for="form6Example2"></label>
+    <div  className="col">
+      <div  className="form-outline">
+        <input type="text" id="form6Example2"  className="form-control" placeholder='Last Name' />
+        <label  className="form-label" for="form6Example2"></label>
       </div>
     </div>
   </div>
-  <div class="form-outline mb-4">
-    <input type="text" id="form6Example3" class="form-control" placeholder='Address line 1' />
-    <label class="form-label" for="form6Example3"></label>
+  <div  className="form-outline mb-4">
+    <input type="text" id="form6Example3"  className="form-control" placeholder='Address line 1' />
+    <label  className="form-label" for="form6Example3"></label>
   </div>
-  <div class="form-outline mb-4">
-    <input type="text" id="form6Example4" class="form-control" placeholder='Address line 2' />
-    <label class="form-label" for="form6Example4"></label>
+  <div  className="form-outline mb-4">
+    <input type="text" id="form6Example4"  className="form-control" placeholder='Address line 2' />
+    <label  className="form-label" for="form6Example4"></label>
   </div>
-  <div class="form-outline mb-4">
-    <input type="text" id="form6Example4" class="form-control" placeholder='City/Town' />
-    <label class="form-label" for="form6Example4"></label>
+  <div  className="form-outline mb-4">
+    <input type="text" id="form6Example4"  className="form-control" placeholder='City/Town' />
+    <label  className="form-label" for="form6Example4"></label>
   </div>
-  <div class="form-outline mb-4">
-    <input type="Number" id="form6Example4" class="form-control" placeholder='Postcode' />
-    <label class="form-label" for="form6Example4"></label>
+  <div  className="form-outline mb-4">
+    <input type="Number" id="form6Example4"  className="form-control" placeholder='Postcode' />
+    <label  className="form-label" for="form6Example4"></label>
   </div>
-  <div class="form-outline mb-4">
-    <input type="email" id="form6Example5" class="form-control" placeholder='Email' />
-    <label class="form-label" for="form6Example5"></label>
+  <div  className="form-outline mb-4">
+    <input type="email" id="form6Example5"  className="form-control" placeholder='Email' />
+    <label  className="form-label" for="form6Example5"></label>
   </div>
-  <div class="form-outline mb-4">
-    <input type="number" id="form6Example6" class="form-control" placeholder='Phone' />
-    <label class="form-label" for="form6Example6"></label>
+  <div  className="form-outline mb-4">
+    <input type="number" id="form6Example6"  className="form-control" placeholder='Phone' />
+    <label  className="form-label" for="form6Example6"></label>
   </div>
-  <div class="form-outline mb-4">
-    <input type="number" id="form6Example6" class="form-control" placeholder='Annual Income' />
-    <label class="form-label" for="form6Example6"></label>
+  <div  className="form-outline mb-4">
+    <input type="number" id="form6Example6"  className="form-control" placeholder='Annual Income' />
+    <label  className="form-label" for="form6Example6"></label>
   </div>
-  <div class="form-outline mb-4">
-    <textarea class="form-control" id="form6Example7" rows="4" placeholder='Additional Information' ></textarea>
-    <label class="form-label" for="form6Example7"></label>
+  <div  className="form-outline mb-4">
+    <textarea  className="form-control" id="form6Example7" rows="4" placeholder='Additional Information' ></textarea>
+    <label  className="form-label" for="form6Example7"></label>
   </div>
 
-  <button type="submit" class="btn btn-primary btn-block mb-4">Submit</button>
+  <button type="submit"  className="btn btn-primary btn-block mb-4">Submit</button>
 
   
 </form>

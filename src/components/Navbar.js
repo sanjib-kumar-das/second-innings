@@ -33,62 +33,52 @@ export default function Navbar() {
             className="collapse navbar-collapse justify-content-end"
             id="navbarSupportedContent"
           >
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            
-  
-  <div class="container-fluid  ">
-    <div class="collapse navbar-collapse  " id="navbarNavDropdown">
-      <ul class="navbar-nav  fs-5">
-      <li class="nav-item  mt-1">
-      <Link className="nav-link" to="/">
-                  <p className="text-center fw-bold">Home</p>
-                </Link>
-        </li>
-        <li className="nav-item">
-                <Link className="nav-link" to="/gethome">
-                  <p className="text-center fw-bold">Find a home</p>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/adopt">
-                  <p className="text-center fw-bold">Adopt parents</p>
-                </Link>
-              </li>
-      
-              <li className="nav-item">
-                <Link className="nav-link" to="/gallery">
-                  <p className="text-center fw-bold"> Gallery</p>
-                </Link>
-              </li>             
-        
- 
+            <nav  className="navbar navbar-expand-lg bg-body-tertiary">
+              <div  className="container-fluid  ">
+                <div  className="collapse navbar-collapse  " id="navbarNavDropdown">
+                  <ul  className="navbar-nav  fs-5">
+                    <li  className="nav-item">
+                      <Link className="nav-link" to="/">
+                        <p className="text-center fw-bold">Home</p>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/gethome">
+                        <p className="text-center fw-bold">Find a home</p>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/adopt">
+                        <p className="text-center fw-bold">Adopt parents</p>
+                      </Link>
+                    </li>
 
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/gallery">
+                        <p className="text-center fw-bold"> Gallery</p>
+                      </Link>
+                    </li>
 
-        
-
-              <li className="nav-item">
-                <Link className="nav-link" to="/contact">
-                  <p className="text-center fw-bold">Contact</p>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/faq">
-                  <p className="text-center fw-bold">FAQs</p>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/signin">
-                  <p className="text-center fw-bold">Login</p>
-                </Link>
-              </li>
-              
-      </ul>
-    </div>
-  </div>
-  
-</nav>
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/contact">
+                        <p className="text-center fw-bold">Contact</p>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/faq">
+                        <p className="text-center fw-bold">FAQs</p>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/signin">
+                        <p className="text-center fw-bold">Login</p>
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
             {/* <ul className="navbar-nav nav justify-content-left mr-auto mx-2 d-flex justify-content-center"> */}
-            
           </div>
         </div>
       </nav>

@@ -40,6 +40,7 @@ export default function Home() {
       {/* <div className="">
           <img className="graphic rounded img-fluid" src={graphic} alt="" />
         </div> */}
+        <section className="home-sec">
       <div className="main mb-5  ">
         <div className="row d-flex mx-auto  ">
           <div className="text col-sm-5 px-5  ">
@@ -80,22 +81,22 @@ export default function Home() {
                 Contact Us
               </button>
             </Link> */}
-            <a href="https://discord.gg/m6AMnhBXwn" target="blank">
+            <a href="tel: 6290374022" target="blank">
               <button
                 type="button"
                 className="btn btn-warning text-dark btn-sm mb-5"
                 style={{ backgroundColor: "#90CED3" }}
               >
                 
-                <i class="fa-sharp fa-solid fa-paper-plane fa-fade text-light"></i>{" "}
-                <span className="text-light"> &nbsp; Contact Us</span>
+                <i  className="fa-sharp fa-solid fa-phone fa-fade text-light"></i>{" "}
+                <span className="text-light"> &nbsp; 1800 111 363</span>
               </button>
             </a>
           </div>
 
           <span className="col-sm-7 homeCar  ">
-            <div class="container">
-              <div class="image-container">
+            <div  className="container">
+              <div  className="image-container">
                 <img src={img} alt="Background" className="home-pic h-5 img-fluid" style={{height:"37rem"}} />
               
               </div>
@@ -108,7 +109,7 @@ export default function Home() {
       <Domains></Domains>
       {/* TESTIMONIAL */}
       <Testimonial></Testimonial>
-      
+      </section>
     </>
   );
 }

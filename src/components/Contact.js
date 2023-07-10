@@ -4,13 +4,13 @@ import "./styles/contact.css";
 function Contact() {
   return (
     <>
-      <section class="section-bg" data-scroll-index="7">
-        <div class="overlay pt-100 pb-100 ">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 d-flex align-items-center">
-                <div class="contact-info">
-                  <h2 class="contact-title text-info">Have Any Questions?</h2>
+      <section  className="section-bg" data-scroll-index="7">
+        <div  className="overlay pt-100 pb-100 ">
+          <div  className="container">
+            <div  className="row">
+              <div  className="col-lg-6 d-flex align-items-center">
+                <div  className="contact-info">
+                  <h2  className="contact-title text-info">Have Any Questions?</h2>
                   <p className="fs-4">
                     Lorem ipsum is a dummy text used to replace text in some
                     areas just for the purpose of an example. It can be used in
@@ -18,30 +18,30 @@ function Contact() {
                     usually a section of a Latin text by Cicero with words
                     altered, added and removed to make it nonsensical.
                   </p>
-                  <ul class="contact-info">
+                  <ul  className="contact-info">
                     <li>
-                      <div class="info-left">
-                        <i class="fas fa-mobile-alt"></i>
+                      <div  className="info-left">
+                        <i  className="fas fa-mobile-alt"></i>
                       </div>
-                      <div class="info-right">
+                      <div  className="info-right">
                         <h4>+91-8617011267</h4>
                       </div>
                     </li>
                     <li>
-                      <div class="info-left">
-                        <i class="fas fa-at"></i>
+                      <div  className="info-left">
+                        <i  className="fas fa-at"></i>
                       </div>
-                      <div class="info-right">
+                      <div  className="info-right">
                         <a href="mailto:secondinnings29@gmail.com">
                           <h4>secondinnings29@gmail.com</h4>
                         </a>
                       </div>
                     </li>
                     <li>
-                      <div class="info-left">
-                        <i class="fas fa-map-marker-alt"></i>
+                      <div  className="info-left">
+                        <i  className="fas fa-map-marker-alt"></i>
                       </div>
-                      <div class="info-right">
+                      <div  className="info-right">
                         <a
                           href="https://www.google.com/maps/place/University+Institute+Of+Technology,+BU/@23.257267,87.846751,14z/data=!4m6!3m5!1s0x39f8361a58dcc565:0x37a42f6b23df16cd!8m2!3d23.2572665!4d87.8467508!16s%2Fm%2F0wbhsr6?hl=en"
                           target="blank"
@@ -56,17 +56,17 @@ function Contact() {
                   </ul>
                 </div>
               </div>
-              <div class="col-lg-6 d-flex align-items-center">
-                <div class="contact-form">
+              <div  className="col-lg-6 d-flex align-items-center">
+                <div  className="contact-form">
                   <form id="contact-form" method="POST">
                     <input type="hidden" name="form-name" value="contactForm" />
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="form-group">
+                    <div  className="row">
+                      <div  className="col-md-12">
+                        <div  className="form-group">
                           <input
                             type="text"
                             name="name"
-                            class="form-control rounded-pill shadow"
+                             className="form-control rounded-pill shadow"
                             id="first-name"
                             placeholder="Enter Your Name *"
                             required="required"
@@ -74,12 +74,12 @@ function Contact() {
                           />
                         </div>
                       </div>
-                      <div class="col-md-12">
-                        <div class="form-group">
+                      <div  className="col-md-12">
+                        <div  className="form-group">
                           <input
                             type="email"
                             name="email"
-                            class="form-control rounded-pill shadow"
+                             className="form-control rounded-pill shadow"
                             id="email"
                             placeholder="Enter Your Email *"
                             required="required"
@@ -88,11 +88,11 @@ function Contact() {
                         </div>
                       </div>
 
-                      <div class="col-md-12">
-                        <div class="form-group">
-                          <div class="form-floating">
+                      <div  className="col-md-12">
+                        <div  className="form-group">
+                          <div  className="form-floating">
                             <textarea
-                              class="form-control rounded shadow"
+                               className="form-control rounded shadow"
                               placeholder="Enter Your Message *"
                               name="message"
                               id="floatingTextarea"
@@ -103,9 +103,9 @@ function Contact() {
                           </div>
                         </div>
                       </div>
-                      <div class="col-md-12">
-                        <button class="btn-big btn btn-bg">
-                          Send Us <i class="fas fa-arrow-right"></i>
+                      <div  className="col-md-12">
+                        <button  className="btn-big btn btn-bg">
+                          Send Us <i  className="fas fa-arrow-right"></i>
                         </button>
                       </div>
                     </div>

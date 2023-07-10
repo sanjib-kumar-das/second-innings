@@ -29,20 +29,20 @@ function Gethome() {
               </h1>
           </div>
         </h2>
-      <div class="get-home-container">
-        <div class="get-home-card" style={{color:"#009688"}}>
-            <div class="imgBx">
+      <div  className="get-home-container">
+        <div  className="get-home-card" style={{color:"#009688"}}>
+            <div  className="imgBx">
                 <img src="logo-removebg-preview.png" alt=""/>
             </div>
-            <div class="content">
+            <div  className="content">
                 <h2>Home 1</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vel est nobis, nostrum vitae eligendi esse excepturi ipsa sunt aliquid?</p>
-                <div class="rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
+                <div  className="rating">
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-regular fa-star"></i>
                     <span>4/5</span>
                     
                 </div>
@@ -50,20 +50,20 @@ function Gethome() {
                 <a href="*">Read More</a>
             </div>
         </div>
-        <div class="get-home-card" style={{color:"#ff3e7f"}}>
-            <div class="imgBx">
+        <div  className="get-home-card" style={{color:"#ff3e7f"}}>
+            <div  className="imgBx">
                 <img src="logo-removebg-preview.png" alt=""/>
             </div>
-            <div class="content">
+            <div  className="content">
                 <h2>Home 2</h2> 
                                
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vel est nobis, nostrum vitae eligendi esse excepturi ipsa sunt aliquid?</p>
-                <div class="rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
+                <div  className="rating">
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-regular fa-star"></i>
                     <span>4/5</span>
                     
                 </div>
@@ -71,20 +71,20 @@ function Gethome() {
                 <a href="*">Read More</a>
             </div>
         </div>
-        <div class="get-home-card" style={{color:"#03a9f4"}}>
-            <div class="imgBx">
+        <div  className="get-home-card" style={{color:"#03a9f4"}}>
+            <div  className="imgBx">
                 <img src="logo-removebg-preview.png" alt=""/>
             </div>
-            <div class="content">
+            <div  className="content">
                 <h2>Home 3</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vel est nobis, nostrum vitae eligendi esse excepturi ipsa sunt aliquid?</p>
                 
-                <div class="rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
+                <div  className="rating">
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-solid fa-star"></i>
+                    <i  className="fa-regular fa-star"></i>
                     <span>4/5</span>
                     
                 </div>

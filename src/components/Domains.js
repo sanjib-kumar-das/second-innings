@@ -54,17 +54,17 @@ export default function Domains() {
         <div className="container text-center ">
           <div className="row justify-content-center">
             
-            <div class="col text-center my-auto">
+            <div  className="col text-center my-auto">
               <div className=""><img src={food} alt="" className=" img-fluid rounded-circle" style={{width:"70%"}} /></div>
-              <div className="fs-4 my-3"><span><a href="/food">Find A Home</a></span></div>             
+              <div className="fs-4 my-3"><span><a href="/gethome ">Find A Home</a></span></div>             
             </div>
             
-            <div class="col  text-center my-auto">
+            <div  className="col  text-center my-auto">
               <div className=""><img src={train} alt="" className=" img-fluid rounded-circle" style={{width:"70%"}} /></div>
               <div className="fs-4 my-3"><span> <a href="/training">Adopt Parent</a></span></div> 
             </div>
 
-            <div class="col  text-center my-auto">
+            <div  className="col  text-center my-auto">
               <div className=""><img src={petshop} alt="" className=" img-fluid rounded-circle" style={{width:"70%"}} /></div>
               <div className="fs-4 my-3"><span> <a href="/kennel" >Elder-care</a></span></div> 
             </div>
