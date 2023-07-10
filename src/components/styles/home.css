@@ -75,7 +75,7 @@
 }
 
 /* Add the solid color cropper background */
-.overlay {
+/* .overlay {
   position:relative;
   top: 10;
   right: 10;
@@ -84,7 +84,7 @@
 
   background-color: rgba(0, 0, 0, 0.5);
   transform: translateX(-50%);
-}
+} */
 
 /* Set the styling for the text area */
 .text-area {

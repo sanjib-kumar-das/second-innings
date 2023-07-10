@@ -29,21 +29,36 @@ export default function Signin() {
   };
   return (
     <>
-      <div className="main">
+      <div className="main mt-5">
         <div className="row d-flex mx-auto">
           <div className="text col-sm-6 px-5">
             <div className="codebird">
-              <h1 className="text-brown">
-                S<span className="text-warning">ign</span>In
-              </h1>
+            <h1 className="text-brown main-head service-head">
+                <span className="text-warnin" style={{ color: "#15A6BA", fontWeight:"700" }}>
+                  S
+                  <span className="text-warn" style={{ color: "#EEE" }}>
+                    I
+                  </span>                 
+                  GN
+                  </span>
+
+                  <span className="text-warnin" style={{ color: "#15A6BA", fontWeight:"700" }}>
+                  
+                  <span className="text-warn" style={{ color: "#EEE" }}>
+                    
+                    {" "}I
+                  </span>                 
+                  N
+                  </span>
+                  </h1>  
             </div>
-            <div className="sub-text my-5">
-              <AIWriter delay={125}>
+            <div className="sub-text my-5 fs-5 text-light">
+              
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Mollitia dolorum voluptate, laudantium accusantium deserunt eos
                 explicabo, ipsa exercitationem asperiores voluptatum illum quasi
                 id, sequi impedit nobis. Doloremque corporis veritatis neque?
-              </AIWriter>
+         
             </div>
             <div className="signin-form mt-5">
               <form ref={refForm} onSubmit={sendEmail}>
@@ -88,12 +103,12 @@ export default function Signin() {
                       required
                     ></textarea>
                   </li> */}
-                  <div className="row mt-5">
-                  <li> New to WOOF?<a href="/signup"> SignUp Here.</a></li>
+                  <div className="row mt-5 text-white fs-4">
+                  <li> New to Second Innings?<a href="/signup" className="fa-fade"> SignUp Here.</a></li>
                   <li>
                     <input
                       type="submit"
-                      className="flat-button button btn bg-warning"
+                      className="flat-button button btn-info rounded-pill fs-4"
                       value="Submit"
                     />
                   </li>

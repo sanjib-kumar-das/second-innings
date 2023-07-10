@@ -15,6 +15,8 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Faq from "./components/Faq";
 import Gethome from "./components/Gethome";
+import Gallery from "./components/Gallery";
+import Adopt from "./components/Adopt";
 // import Faq from "./components/Faq";
 import Clinic from "./components/Clinic";
 import Medicine from "./components/Medicine";
@@ -55,37 +57,7 @@ function App() {
 
           <Routes>
             <Route exact path="/" element={<Home key="home" />}></Route>
-            <Route exact path="about" element={<About key="about" />}></Route>
-            <Route
-              exact
-              path="feed"
-              element={<Feed key="feed" />}
-            ></Route>
-            <Route
-              exact
-              path="food"
-              element={<Food key="food" />}
-            ></Route>
-            <Route
-              exact
-              path="training"
-              element={<Training key="training" />}
-            ></Route>
-            <Route
-              exact
-              path="kennel"
-              element={<Kennel key="kennel" />}
-            ></Route>
-            <Route
-              exact
-              path="Clinic"
-              element={<Clinic key="clinic" />}
-            ></Route>
-            <Route
-              exact
-              path="medicine"
-              element={<Medicine key="medicine" />}
-            ></Route>
+            
             <Route
               exact
               path="faq"
@@ -95,6 +67,16 @@ function App() {
               exact
               path="gethome"
               element={<Gethome key="gethome" />}
+            ></Route>
+            <Route
+              exact
+              path="gallery"
+              element={<Gallery key="gallery" />}
+            ></Route>
+            <Route
+              exact
+              path="adopt"
+              element={<Adopt key="adopt" />}
             ></Route>
             {/* <Route
               exact

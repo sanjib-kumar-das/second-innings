@@ -12,7 +12,9 @@ function Gethome() {
                     I
                   </span>                 
                   ND
-                
+                  <span className="text-warn" style={{ color: "#EEE" }}>
+                    {" "}A{" "}
+                  </span> 
                 <span className="text-warnin" style={{ color: "#15A6BA" }}>
                   {" "}H
                   <span className="text-warn" style={{ color: "#EEE" }}>
@@ -45,7 +47,7 @@ function Gethome() {
                     
                 </div>
     
-                <a href="#">Read More</a>
+                <a href="*">Read More</a>
             </div>
         </div>
         <div class="get-home-card" style={{color:"#ff3e7f"}}>
@@ -66,7 +68,7 @@ function Gethome() {
                     
                 </div>
     
-                <a href="#">Read More</a>
+                <a href="*">Read More</a>
             </div>
         </div>
         <div class="get-home-card" style={{color:"#03a9f4"}}>
@@ -87,7 +89,7 @@ function Gethome() {
                     
                 </div>
     
-                <a href="#">Read More</a>
+                <a href="*">Read More</a>
             </div>
         </div>
     </div>

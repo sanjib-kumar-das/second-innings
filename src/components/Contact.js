@@ -1,21 +1,17 @@
 import React from "react";
-import "./styles/contact.css"
+import "./styles/contact.css";
 
 function Contact() {
   return (
     <>
-      <section
-        class="section-bg"
-        
-        data-scroll-index="7"
-      >
+      <section class="section-bg" data-scroll-index="7">
         <div class="overlay pt-100 pb-100 ">
           <div class="container">
             <div class="row">
               <div class="col-lg-6 d-flex align-items-center">
                 <div class="contact-info">
-                  <h2 class="contact-title">Have Any Questions?</h2>
-                  <p>
+                  <h2 class="contact-title text-info">Have Any Questions?</h2>
+                  <p className="fs-4">
                     Lorem ipsum is a dummy text used to replace text in some
                     areas just for the purpose of an example. It can be used in
                     publishing and graphic design. The lorem ipsum text is
@@ -70,7 +66,7 @@ function Contact() {
                           <input
                             type="text"
                             name="name"
-                            class="form-control"
+                            class="form-control rounded-pill shadow"
                             id="first-name"
                             placeholder="Enter Your Name *"
                             required="required"
@@ -83,7 +79,7 @@ function Contact() {
                           <input
                             type="email"
                             name="email"
-                            class="form-control"
+                            class="form-control rounded-pill shadow"
                             id="email"
                             placeholder="Enter Your Email *"
                             required="required"
@@ -94,15 +90,17 @@ function Contact() {
 
                       <div class="col-md-12">
                         <div class="form-group">
-                          <textarea
-                            rows="4"
-                            name="message"
-                            class="form-control"
-                            id="description"
-                            placeholder="Enter Your Message *"
-                            required="required"
-                            autocomplete="off"
-                          ></textarea>
+                          <div class="form-floating">
+                            <textarea
+                              class="form-control rounded shadow"
+                              placeholder="Enter Your Message *"
+                              name="message"
+                              id="floatingTextarea"
+                              required="required"
+                              autocomplete="off"
+                            ></textarea>
+                            <label for="floatingTextarea">Comments</label>
+                          </div>
                         </div>
                       </div>
                       <div class="col-md-12">

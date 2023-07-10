@@ -38,8 +38,8 @@ export default function Navbar() {
   
   <div class="container-fluid  ">
     <div class="collapse navbar-collapse  " id="navbarNavDropdown">
-      <ul class="navbar-nav  ">
-      <li class="nav-item   mt-1">
+      <ul class="navbar-nav  fs-5">
+      <li class="nav-item  mt-1">
       <Link className="nav-link" to="/">
                   <p className="text-center fw-bold">Home</p>
                 </Link>
@@ -50,12 +50,16 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/gethome">
+                <Link className="nav-link" to="/adopt">
                   <p className="text-center fw-bold">Adopt parents</p>
                 </Link>
               </li>
       
-              
+              <li className="nav-item">
+                <Link className="nav-link" to="/gallery">
+                  <p className="text-center fw-bold"> Gallery</p>
+                </Link>
+              </li>             
         
  
 
