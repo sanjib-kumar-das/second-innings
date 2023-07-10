@@ -54,6 +54,9 @@ li {
 .nav-link p {
   padding: 0 1rem 0 1rem;
 }
+.st:hover{
+  color: #00d2ff;
+}
 /* Dropdown Button */
 /* .dropbtn {
   background-color: #dddfde;

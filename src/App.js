@@ -17,6 +17,7 @@ import Faq from "./components/Faq";
 import Gethome from "./components/Gethome";
 import Gallery from "./components/Gallery";
 import Adopt from "./components/Adopt";
+import Volunteer from "./components/Volunteer";
 // import Faq from "./components/Faq";
 import Clinic from "./components/Clinic";
 import Medicine from "./components/Medicine";
@@ -103,6 +104,11 @@ function App() {
               exact
               path="contact"
               element={<Contact key="contact" />}
+            ></Route>
+            <Route
+              exact
+              path="volunteer"
+              element={<Volunteer key="volunteer" />}
             ></Route>
           </Routes>
           <Chatbot />

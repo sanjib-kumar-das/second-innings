@@ -1,8 +1,14 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+
+import "./styles/adopt.css";
 
 function Adopt() {
   return (
    <>
+   <div className="container">
+    
+   <canvas id="myChart" />
+   </div>
    <form className='container mt-5'>
     
    <h2 className="heading my-2">
@@ -81,7 +87,7 @@ function Adopt() {
     <label  className="form-label" for="form6Example7"></label>
   </div>
 
-  <button type="submit"  className="btn btn-primary btn-block mb-4">Submit</button>
+  <a type="submit" href="mailto: secondinnings23@gmail.com" className="btn btn-primary btn-block mb-4">Submit</a>
 
   
 </form>

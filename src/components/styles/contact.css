@@ -6,6 +6,9 @@
     position: relative;
     padding: 110px 0;
 }
+.comm{
+    font-weight: 700;
+}
 .section-bg {
     background-size: cover;
     position: relative;
@@ -31,7 +34,7 @@
     border-radius: 6px;
     /* background: #ffffff; */
     color: #222;
-    box-shadow: 10px 40px 40px rgba(0,0,0,.2);
+    /* box-shadow: 10px 40px 40px rgba(0,0,0,.2); */
     pointer-events: none;
     right: auto;
     width: 100vw;
@@ -116,8 +119,8 @@
     background-color: #fff;
     margin: 25px 0;
     color: #214dcb;
-    -webkit-box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.32);
-    box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.17);
+    /* -webkit-box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.32); */
+    /* box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.17); */
 }
 .contact-info {
     padding: 0 30px 0px 0;

@@ -39,39 +39,40 @@ export default function Navbar() {
                   <ul  className="navbar-nav  fs-5">
                     <li  className="nav-item">
                       <Link className="nav-link" to="/">
-                        <p className="text-center fw-bold">Home</p>
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link className="nav-link" to="/gethome">
-                        <p className="text-center fw-bold">Find a home</p>
+                        <p className="text-center fw-bold st">Home</p>
                       </Link>
                     </li>
                     <li className="nav-item">
                       <Link className="nav-link" to="/adopt">
-                        <p className="text-center fw-bold">Adopt parents</p>
+                        <p className="text-center fw-bold st">Adopt parents</p>
                       </Link>
                     </li>
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/gethome">
+                        <p className="text-center fw-bold st">Find a home</p>
+                      </Link>
+                    </li>
+                    
 
                     <li className="nav-item">
                       <Link className="nav-link" to="/gallery">
-                        <p className="text-center fw-bold"> Gallery</p>
+                        <p className="text-center fw-bold st"> Gallery</p>
                       </Link>
                     </li>
 
                     <li className="nav-item">
                       <Link className="nav-link" to="/contact">
-                        <p className="text-center fw-bold">Contact</p>
+                        <p className="text-center fw-bold st">Contact</p>
                       </Link>
                     </li>
                     <li className="nav-item">
                       <Link className="nav-link" to="/faq">
-                        <p className="text-center fw-bold">FAQs</p>
+                        <p className="text-center fw-bold st">FAQs</p>
                       </Link>
                     </li>
                     <li className="nav-item">
                       <Link className="nav-link" to="/signin">
-                        <p className="text-center fw-bold">Login</p>
+                        <p className="text-center fw-bold st">Login</p>
                       </Link>
                     </li>
                   </ul>

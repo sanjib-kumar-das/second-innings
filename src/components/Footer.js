@@ -6,8 +6,9 @@ import "./styles/footer.css";
 export default function Footer() {
   return (
     <div className="mt-5">
+      <section className="bg-light rounded">
       <footer className="text-center text-lg-start text-dark">
-        <section className="d-flex justify-content-between p-4 bg-light text-dark shadow rounded">
+        {/* <section className="d-flex justify-content-between p-4 bg-light text-dark shadow rounded">
           <div className="me-5">
             <span>Be Our Member </span>
           </div>
@@ -19,7 +20,7 @@ export default function Footer() {
               rel="noreferrer"
               className="text-dark me-4"
             >
-              <i className="fab fa-facebook fa-flip"></i>
+              <i className="fab fa-facebook fa-  "></i>
             </a>
             <a
               href="/"
@@ -27,7 +28,7 @@ export default function Footer() {
               rel="noreferrer"
               className="text-dark me-4"
             >
-              <i className="fab fa-discord fa-flip"></i>
+              <i className="fab fa-discord fa-  "></i>
             </a>
 
             <a
@@ -36,7 +37,7 @@ export default function Footer() {
               rel="noreferrer"
               className="text-dark me-4"
             >
-              <i className="fab fa-linkedin fa-flip"></i>
+              <i className="fab fa-linkedin fa-  "></i>
             </a>
             <a
               href="/"
@@ -44,7 +45,7 @@ export default function Footer() {
               rel="noreferrer"
               className="text-dark me-4"
             >
-              <i className="fab fa-instagram fa-flip"></i>
+              <i className="fab fa-instagram fa-  "></i>
             </a>
             <a
               // href="https://bit.ly/3qFvDlv"
@@ -53,12 +54,12 @@ export default function Footer() {
               rel="noreferrer"
               className="text-dark me-4"
             >
-              <i className="fab fa-blogger fa-flip"></i>
+              <i className="fab fa-blogger fa-  "></i>
             </a>
           </div>
-        </section>
+        </section> */}
 
-        <section className="bg-light shadow rounded">
+        <section className="bg-light shadow rounded border">
           <div className="container text-center text-md-start mt-4">
             <div className="row mt-4">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 mt-4">
@@ -125,40 +126,31 @@ export default function Footer() {
                   </Link>
                 </p>
                 <p>
-                  <Link to="/" className="text-dark">
-                    About
+                  <Link to="/gethome" className="text-dark">
+                    Find A Home
                   </Link>
                 </p>
                 <p>
-                  <Link to="/" className="text-dark">
-                    Feed
+                  <Link to="/adopt" className="text-dark">
+                    Adopt Parents
                   </Link>
                 </p>
                 <p>
-                  <Link to="/" className="text-dark">
-                    Training & Grooming Centre
+                  <Link to="/gallery" className="text-dark">
+                    Gallery
                   </Link>
                 </p>
                 <p>
-                  <Link to="/" className="text-dark">
-                    Pet Shop & Kennels
+                  <Link to="/contact" className="text-dark">
+                    Contact Us
                   </Link>
                 </p>
                 <p>
-                  <Link to="/" className="text-dark">
-                    Clinics & Hospitals
-                  </Link>
-                </p>
-                <p>
-                  <Link to="/" className="text-dark">
-                    Medicines
-                  </Link>
-                </p>
-                <p>
-                  <Link to="/" className="text-dark">
+                  <Link to="/faq" className="text-dark">
                     FAQs
                   </Link>
                 </p>
+                
                 {/* <p>
                   <Link
                     to="?"
@@ -189,44 +181,56 @@ export default function Footer() {
                   <i className="fas fa-phone mr-3"></i>{" "}
                   <a href="tel: 6290374022" className="text-dark">1800 111 363</a>
                 </p>
-                <div className="div">
-                  <p>
-                    {/* <label
-                    htmlFor="validationDefault02"
-                    className="form-label text-bold qfont text-dark"
-                  ></label> */}
-                    <div className="input-group">
-                      <input
-                        type="emails"
-                        placeholder="Email ID"
-                        className="form-control"
-                        id="validationDefaultMail"
-                        aria-describedby="inputGroupPrepend2"
-                        name="mail"
-                        autoComplete="off"
-                      />
-                    </div>
-                  </p>
-                  <p>
-                    <textarea
-                      className="form-control mt-1"
-                      id="exampleFormControlTextarea7"
-                      rows="2"
-                      placeholder="Give your feedback here"
-                      name="love"
-                    ></textarea>
-                  </p>
-                  <p className="d-flex justify-content-end">
-                    <button
-                      type="button"
-                      className="btn btn-primary btn-sm align-center"
-                      style={{backgroundColor:"#17A5BF"}}
-                    >
-                      Send
-                    </button>
-                  </p>
-                </div>
+                <h6 className="text-uppercase fw-bold mt-4">Connect with us</h6>
+                <hr className="mb-4 mt-0 d-inline-block mx-auto hr4" />
+                <p>
+                <div>
+            <a
+              href="https://www.facebook.com/uit.buruniv.ac.in/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-dark me-4"
+            >
+              <i className="fab fa-facebook fa-  "></i>
+            </a>
+            <a
+              href="/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-dark me-4"
+            >
+              <i className="fab fa-discord fa-  "></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/school/uitbu/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-dark me-4"
+            >
+              <i className="fab fa-linkedin fa-  "></i>
+            </a>
+            <a
+              href="/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-dark me-4"
+            >
+              <i className="fab fa-instagram fa-  "></i>
+            </a>
+            <a
+              
+              href="/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-dark me-4"
+            >
+              <i className="fab fa-blogger fa-  "></i>
+            </a>
+          </div>
+                </p>
               </div>
+              
             </div>
           </div>
         </section>
@@ -238,6 +242,7 @@ export default function Footer() {
           </a>
         </div>
       </footer>
+      </section>
     </div>
   );
 }

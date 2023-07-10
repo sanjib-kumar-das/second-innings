@@ -68,7 +68,7 @@ function Contact() {
                             name="name"
                              className="form-control rounded-pill shadow"
                             id="first-name"
-                            placeholder="Enter Your Name *"
+                            placeholder="Enter Your Name"
                             required="required"
                             autocomplete="off"
                           />
@@ -81,7 +81,7 @@ function Contact() {
                             name="email"
                              className="form-control rounded-pill shadow"
                             id="email"
-                            placeholder="Enter Your Email *"
+                            placeholder="Enter Your Email"
                             required="required"
                             autocomplete="off"
                           />
@@ -99,7 +99,7 @@ function Contact() {
                               required="required"
                               autocomplete="off"
                             ></textarea>
-                            <label for="floatingTextarea">Comments</label>
+                            <label for="floatingTextarea"><span className="comm">Comments</span></label>
                           </div>
                         </div>
                       </div>

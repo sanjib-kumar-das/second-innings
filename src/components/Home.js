@@ -85,11 +85,23 @@ export default function Home() {
               <button
                 type="button"
                 className="btn btn-warning text-dark btn-sm mb-5"
-                style={{ backgroundColor: "#90CED3" }}
+                style={{ backgroundColor: "#15A6BF" }}
               >
                 
                 <i  className="fa-sharp fa-solid fa-phone fa-fade text-light"></i>{" "}
                 <span className="text-light"> &nbsp; 1800 111 363</span>
+              </button>
+            </a>
+
+            <a href="/volunteer" target="blank">
+              <button
+                type="button"
+                className="btn btn-warning text-dark btn-sm mb-5"
+                style={{ backgroundColor: "#15A6BF" }}
+              >
+                
+                <i  className="fa-sharp fa-solid fa-person fa-fade text-light"></i>{" "}
+                <span className="text-light"> &nbsp; Become a volunteer</span>
               </button>
             </a>
           </div>
